@@ -17,6 +17,11 @@ void main(void) {
             printf(" ");
         }
 
-       
+    // Afficher les étoiles 
+    for(k = 0; k < (2 * i - 1); K++;){
+        printf("*");
+    }
+
+    printf("\n");       
 
 }
