@@ -3,7 +3,7 @@
 void main(void) {
     
     int hauteur;
-    int i ;
+    int i;
     int j;
     int k;
 
@@ -18,10 +18,18 @@ void main(void) {
         }
 
     // Afficher les étoiles 
-    for(k = 0; k < (2 * i - 1); K++;){
+    for(k = 0; k < (2 * i - 1); k++) {
         printf("*");
     }
 
     printf("\n");       
+}
 
+     // Dessiner le tronc
+    for(i = 0; i < hauteur - 1; i++) {
+        printf(" ");
+    }
+    printf("||\n");
+
+    return 0;
 }
